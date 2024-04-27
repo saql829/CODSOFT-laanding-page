@@ -1,0 +1,311 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height:100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('images/banner1.jpg');
+background-size: cover;
+color: rgb(245, 245, 250);
+
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.menu i {
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;;
+    color: white;
+}
+
+.menu a:hover {
+    color: #ffd700;
+}
+.menu a:nth-child(5) {
+    border-radius: 12px;
+    margin: 0 1rem;
+    background: #ff5e00;
+    
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+}
+#Hire{
+    text-decoration: none;
+    background: #6d1744;
+    color:white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size:1.5rem;
+    margin: 0 1rem;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.links a:hover {
+    background-color: #ffd700;
+    color: black;
+}
+
+.left{
+    flex-basis: 60%;
+}
+.right{
+    flex-basis: 30%;
+}
+.right {
+    text-align: right;
+    max-width: 100%; /* Set maximum width for the image */
+    padding: 10px; /* Add padding around the image */
+}
+
+.right img {
+    width: 100%; /* Set width to fill the container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 400px;
+    background-color: transparent; /* Set maximum width for the image */
+}
+.right {
+    text-align: right;
+    max-width: 100%; /* Set maximum width for the image */
+    padding: 10px; /* Add padding around the image */
+    background-color: transparent; /* Set background color to transparent */
+}
+.left h2{
+    font-family: 'popins',sans-serif;
+    color: brown;
+}
+.left h1{
+    font-family: 'kalam',cursive;
+    font-size: 5rem;
+    color: dimgray;
+}
+.left p{
+    font-family: 'popins',sans-serif;
+    line-height: 1.5rem;
+}
+#bio{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'popins' , sans-serif;
+}
+.leftbio{
+    flex-basis: 40%;
+}
+.rightbio{
+    flex-basis: 60%;
+}
+.leftbio img{
+    width: 100%;
+    height: 700%;
+    border-radius:8px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 ;
+    padding: 0 ;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bio-image {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+#bio-content {
+    flex-grow: 1;
+}
+
+#bio-content h2 {
+    margin: 20px;
+    color: #333;
+}
+
+#bio-content p {
+    margin:  15px;
+    text-align: left;
+}
+#bio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info {
+    flex-basis: 100%;
+    margin-top: 20px;
+}
+
+.leftbio {
+    flex: 1;
+}
+
+.rightbio {
+    flex: 2;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .info {
+        flex-basis: 100%;
+        margin-top: 20px;
+        float: left;
+        clear: left;
+        width: calc(100% - 120px);
+    }
+
+    .leftbio,
+    .rightbio {
+        flex-basis: 100%;
+        margin: 0;
+    }
+}
+
+
+#follow{
+    text-align: center ;
+    margin-left: 10%;
+}
+#follow i{
+    color: #639a77;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+
+}
+.link-h {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px; /* Adjust as needed */
+    margin: 20px auto; /* Center the links horizontally */
+}
+
+.link-h a {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.link-h a:hover {
+    background-color: #2980b9;
+}
+
+#services{
+    padding:50px 70px;
+    width: 100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.02);
+    font-family: 'popins' ,sans-serif;
+    text-align: center;
+}
+.intro h1{
+    font-size: 3rem;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.cardbody{
+    flex-basis: 30%;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.cardbody h3{
+    font-size: 1.5rem;
+    margin:0.5rem 0;
+}
+.cardbody i{
+    font-size:2.5rem;
+    color:#6ab04c;
+}
+.cardimg img{
+    width: 100%;
+}
+footer{
+    background: rgb(157, 188, 187);
+    color: #333;
+    font-size: 2rem;
+    padding: 0.5rem;
+    font-family: 'Kalam' , cursive;
+    text-align: center;
+
+}
+
+</style>
